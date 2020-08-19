@@ -1,0 +1,86 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: 'Amatic SC', cursive;
+  margin: 2em;
+  background-image: linear-gradient(to right, #F4D0D0, #A4BADB); 
+
+ 
+}
+
+h1 {
+  font-style: italic;
+  font-weight: 20%;
+  text-align: center;
+  color:#3d3d3d;
+  border:solid 2px;
+  border-color: #3d3d3d;
+  border-radius: 15%;
+  margin: 2% 5%;
+  padding: 0% 3%;
+}
+h1:hover{
+  background-color: #fccbcb;
+  box-shadow: 0px 0px 40px white;
+}
+h2 {
+  color:#3d3d3d;
+}
+
+.question {
+  display: flex;
+  margin-top: 2em;
+  justify-content: space-around;
+}
+  
+.answer-choice img {
+  height: 10em;
+  border: solid 2px;
+  border-radius:4%;
+  border-color:#848484;
+}
+button:enabled{
+  color:white;
+  border-color:#848484;
+  background-color:#6a6a6e ;
+  border-radius: 15%;
+  margin: 3% 5%;
+}
+button:disabled{
+  color:white;
+  border-color:#848484;
+  background-color:#9d9da1 ;
+  border-radius: 15%;
+  margin: 3% 5%;
+}
+button:hover{
+  background-color: #fccbcb;
+
+}
+button:active {
+  background-color: #fccbcb;
+  box-shadow: 0px 0px 30px white;
+  transform: translateY(4px);
+}
+button#resetbutton:hover{
+  background-color:white;
+  color:black;
+}
+.header{
+  display:flex;
+  justify-content: center;
+}
+hr{
+    border-top: 1px dashed;
+}
+img.arrow{
+  margin: 0% 43%;
+}
+button#resetbutton{
+  margin: 0% 45%;
+}
+button#resetbutton:hover{
+  box-shadow: 0px 0px 40px white;
+  background-color: #fccbcb;
+  color: white;
+}
